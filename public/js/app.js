@@ -1,6 +1,6 @@
 
 var url = window.location.href;
-var swLocation = '/twittor-pwa/sw.js';
+var swLocation = 'https://twittor-pwa.vercel.app/twittor-pwa/sw.js';
 
 var swReg;
 
