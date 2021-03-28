@@ -254,7 +254,7 @@ postBtn.on('click', function() {
     };
 
 
-    fetch('api', {
+    fetch('/api', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
