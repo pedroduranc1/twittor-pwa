@@ -278,7 +278,7 @@ postBtn.on('click', function() {
 // Obtener mensajes del servidor
 function getMensajes() {
 
-    fetch('api')
+    fetch('/api')
         .then( res => res.json())
         .then( posts => {
             console.log(posts)
